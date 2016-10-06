@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;	
+}
+
+body {
+	color: #000 ;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 16px ;
+}
+.page-wrap { 
+    margin: 0 auto;
+    width: 800px;
+
+}
+
+dt {
+	border-right: 1px solid #a1a1a1;
+	display:inline-block;
+	font-weight: bold;
+	padding: 0px 10px 75px 0;
+	text-align: right;
+	width: 180px;
+}
+
+dd{
+	width: 400px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/*parrafo de inicio y spam*/
+
+.parr-objetive, .subtitlle-it {
+	color: #a1a1a1;
+	font: italic 18px/1.5 times;
+	margin-bottom: 80px;
+	
+}
+
+.subtitlle-it {
+	font-size: 12px;
+	float: right;
+}
+
+
+/*imagen*/
+
+.pic {
+	float: right;
+
+}
+
+/*titulo*/
+
+.fn {
+	border-bottom: 1px solid #a1a1a1;
+	font-size: 32px;
+	margin-bottom: 15px;
+
+}
+
+/* informacion de contacto*/
+
+.contact-info {
+	font-size: 14px; 
+	margin-bottom: 15px;
+}
+
+.email {
+	border-bottom: 1px dashed #999;
+	color: #999;
+	text-decoration: none;
+	
+}
+
+/*posicionar contenido de texto*/
+
+.section{
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.section dt {
+	float: left;
+
+}
+
+.section dd {
+
+	float: left;
+	padding-left: 100px;
+	
+}
