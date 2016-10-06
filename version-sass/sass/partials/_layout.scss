@@ -1,0 +1,70 @@
+.page-wrap { 
+    margin: 0 auto;
+    width: 800px;
+
+}
+
+
+//parrafo de inicio y spam
+
+.parr-objetive, .subtitlle-it {
+	color: $lgray;
+	font: italic 18px/1.5 times;
+	margin-bottom: 80px;
+	
+}
+
+.subtitlle-it {
+	font-size: $px15;
+	float: right;
+}
+
+
+//imagen
+
+.pic {
+	float: right;
+
+}
+
+//titulo
+
+.fn {
+	border-bottom: 1px solid $lgray;
+	font-size: 32px;
+	margin-bottom: $px15;
+
+}
+
+// informacion de contacto
+
+.contact-info {
+	font-size: $px15; 
+	margin-bottom: $px15;
+}
+
+.email {
+	border-bottom: 1px dashed #999;
+	color: #999;
+	text-decoration: none;
+	
+}
+
+//posicionar contenido de texto
+
+.section{
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.section dt {
+	float: left;
+
+}
+
+.section dd {
+
+	float: left;
+	padding-left: 100px;
+	
+}
